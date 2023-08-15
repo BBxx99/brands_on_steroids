@@ -1,0 +1,72 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;  /* Stack children vertically */
+    align-items: center;     /* Center children horizontally */
+}
+
+.login-logo img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 270px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Stellt sicher, dass die Eingabefelder zentral ausgerichtet sind */
+    width: 100%;
+}
+
+form p {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Stellt sicher, dass die label und input Elemente zentral innerhalb des form p ausgerichtet sind */
+    margin-bottom: 15px;
+}
+
+form p label {
+    margin-bottom: 5px;
+    font-size: 10px;
+    text-transform: uppercase;
+    display: block;
+    text-align: left; /* Stellt sicher, dass der Text des Labels linksbündig ist */
+    width: 90%;  /* Es sollte die gleiche Breite wie das Eingabefeld haben */
+}
+
+form p input {
+    width: 85%;  
+    padding: 5px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: black; /* Setzt den Hintergrund des Buttons auf Schwarz */
+    color: white; /* Setzt die Schriftfarbe des Buttons auf Weiß */
+    padding: 10px 50px; /* Setzt den Abstand um den Text des Buttons herum */
+    border: none; /* Entfernt den Standardrahmen des Buttons */
+    border-radius: 25px; /* Rundet die Ecken des Buttons ab */
+    font-size: 16px; /* Setzt die Schriftgröße des Buttons */
+    cursor: pointer; /* Zeigt den Zeiger-Cursor an, wenn man über den Button fährt */
+    transition: background-color 0.3s ease; /* Fügt eine sanfte Übergangsanimation hinzu */
+}
+
+button:hover {
+    background-color: #770000; /* Ändert die Hintergrundfarbe beim Darüberfahren mit der Maus */
+}
