@@ -1,17 +1,39 @@
-/* Allgemeine Stildefinitionen */
+/* Allgemeine Stildefinitionen für das Layout */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
 }
 
-/* Navbar Logo Anpassungen */
-.nav-logo img {
-    width: 60px; /* Maximale Breite für das Logo */
-}
-
-/* Login Formular Stil */
+/* Stildefinitionen für das Login-Formular */
 .login-input {
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
+
 .login-btn {
-    margin-top: 3rem;
+    margin-top: 1rem;
+}
+
+/* Stildefinitionen für das Logo */
+.nav-logo img {
+    width: 200px; /* Größere Breite für das Logo */
+    margin-left: 1rem; /* Abstand von links für das Logo */
+}
+
+/* Logout-Button Anpassungen */
+.logout-btn {
+    margin-right: 1rem; /* Abstand von rechts für den Logout-Button */
+}
+
+/* Stile für die Suchleiste und den Such-Button */
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    flex: 1; /* Damit die Suchleiste den verfügbaren Platz ausfüllt */
+}
+
+.search-btn {
+    margin-left: 8px; /* Abstand zwischen Suchleiste und Such-Button */
 }
