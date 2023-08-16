@@ -1,18 +1,23 @@
-/* Allgemeine Stildefinitionen */
+/* styles.css */
 
 body {
     font-family: 'Arial', sans-serif;
+    background-color: #fff;
 }
 
-/* Navbar Logo Anpassungen */
-
-.nav-logo img {
-    width: 60px; /* Maximale Breite für das Logo */
+.login-container {
+    
+    max-width: 400px;
+    margin: 5rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+.login-input {
+    margin-top: 1rem; /* Abstand von 1rem über den Eingabefeldern */
 }
 
-/* Weitere Stildefinitionen können hier hinzugefügt werden */
-
-/* Login Formular Stil */
 .login-btn {
-    margin-top: mt-5; /* Dies entspricht der Bootstrap-Einheit mt-5 */
+    margin-top: 3rem;
 }
