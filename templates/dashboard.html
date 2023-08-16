@@ -1,46 +1,38 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
 
 <!-- Top-Navigation -->
-<header class="top-nav">
-    <div class="burger-menu">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="/dashboard/">Dashboard</a>
+            </li>
+            <!-- Weitere Nav-Items können hier hinzugefügt werden -->
+        </ul>
     </div>
-    <div class="nav-button">
-        <a href="/dashboard/">Dashboard</a>
-    </div>
-    <div class="nav-logo">
-        <img src="/static/images/BOS_logo_web_1c.png" alt="Logo">
-    </div>
-</header>
+</nav>
 
-<!-- Sidebar -->
-<aside class="sidebar">
-    <ul>
-        <li>Kategorie 1</li>
-        <li>Kategorie 2</li>
-        <li>Kategorie 3</li>
-        <li>Kategorie 4</li>
-        <li>Kategorie 5</li>
-        <li>Kategorie 6</li>
-        <li>Kategorie 7</li>
-        <li>Kategorie 8</li>
-        <li>Kategorie 9</li>
-        <li>Kategorie 10</li>
-    </ul>
-</aside>
+<!-- Content-Bereich -->
+<div class="container mt-5">
+    <!-- Hier können Sie den Hauptinhalt Ihrer Dashboard-Seite hinzufügen -->
+</div>
 
 <!-- Footer -->
-<footer>
+<footer class="mt-5 text-center">
     © 2023 Brands on Steroids. Alle Rechte vorbehalten.
 </footer>
 
