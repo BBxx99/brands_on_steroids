@@ -1,7 +1,7 @@
 /* Allgemeine Stildefinitionen für das Layout */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 
 /* Stildefinitionen für das Login-Formular */
@@ -19,10 +19,7 @@ body {
     margin-left: 1rem; /* Abstand von links für das Logo */
 }
 
-/* Logout-Button Anpassungen */
-.logout-btn {
-    margin-right: 1rem; /* Abstand von rechts für den Logout-Button */
-}
+
 
 /* Stile für die Suchleiste und den Such-Button */
 .search-form {
@@ -36,4 +33,21 @@ body {
 
 .search-btn {
     margin-left: 8px; /* Abstand zwischen Suchleiste und Such-Button */
+}
+
+/* Stildefinition für das Logo auf der Login-Seite */
+.login-logo img {
+    width:  200px;
+    display: block;
+    margin: 0 auto;  /* Zentriert das Bild horizontal */
+}
+
+/* Logout-Button Anpassungen */
+.logout-btn {
+    margin-right: 1rem; /* Abstand von rechts für den Logout-Button */
+}
+
+.navbar {
+    border-bottom: 1px solid #d3d3d3;  /* dünne graue Linie */
+    background-color: #ffffff;
 }

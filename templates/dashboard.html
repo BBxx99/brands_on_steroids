@@ -14,20 +14,27 @@
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light">
     <!-- Logo -->
     <a class="navbar-brand nav-logo" href="/dashboard/">
         <img src="{% static 'images/BOS_logo_web_1c.png' %}" alt="Logo">
     </a>
 
-   <!-- Searchbar -->
-    <form class="search-form form-inline mx-auto">
-        <input class="search-input form-control" type="search" placeholder="Search" aria-label="Search">
-        <button class="search-btn btn btn-outline-success" type="submit">Search</button>
-    </form>
+    <!-- Toggler for smaller screens -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <!-- Logout-Button -->
-    <button class="btn btn-danger logout-btn" type="button">Logout</button>
+    <!-- Navbar elements -->
+    <div class="collapse navbar-collapse flex-nowrap" id="navbarNav">
+        <!-- Searchbar -->
+        <form class="search-form form-inline mx-auto">
+            <input class="search-input form-control" type="search" placeholder="Search" aria-label="Search">
+            <button class="search-btn btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <!-- Logout-Button am rechten Ende der Navbar -->
+        <button class="btn btn-outline-danger logout-btn" type="button" onclick="location.href='/logout/'">Logout</button>
+     </div>
 </nav>
 
     <!-- Hauptinhalt des Dashboards -->
