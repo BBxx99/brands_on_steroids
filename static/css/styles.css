@@ -34,3 +34,9 @@ body {
 .navbar .form-control {
     max-width: 300px; /* Maximale Breite der Suchleiste */
 }
+/* Logo in der Navbar */
+.nav-logo img {
+    width: 10%;
+    height: auto; /* Damit das Seitenverhältnis des Logos beibehalten wird */
+}
+
