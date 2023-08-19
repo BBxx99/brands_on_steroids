@@ -31,9 +31,11 @@ body {
 }
 
 /* Suchleiste */
-.navbar .form-control {
+.search-form {
+    flex-grow: 1;
     max-width: 300px; /* Maximale Breite der Suchleiste */
 }
+
 /* Logo in der Navbar */
 .nav-logo img {
     width: 10%;
