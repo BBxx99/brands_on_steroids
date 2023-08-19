@@ -19,3 +19,18 @@ body {
     display: block;
     margin: 0 auto;  /* Zentriert das Bild horizontal */
 }
+
+/* Stildefinitionen für das Dashboard-Logo in der Top-Navigationsleiste */
+.navbar-logo {
+    height: auto;
+    width: 30%;
+}
+
+.logo-spacing {
+    margin-left: 15px;
+}
+
+/* Suchleiste */
+.navbar .form-control {
+    max-width: 300px; /* Maximale Breite der Suchleiste */
+}

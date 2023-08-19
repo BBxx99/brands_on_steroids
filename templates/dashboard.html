@@ -20,30 +20,20 @@
         <img src="{% static 'images/BOS_logo_web_1c.png' %}" alt="Logo">
     </a>
 
-    <!-- Toggler for smaller screens -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <!-- Navbar elements -->
-    <div class="collapse navbar-collapse flex-nowrap" id="navbarNav">
-        <!-- Searchbar -->
-        <form class="search-form form-inline mx-auto">
-            <input class="search-input form-control" type="search" placeholder="Search" aria-label="Search">
-            <button class="search-btn btn btn-outline-success" type="submit">Search</button>
-        </form>
-        <!-- Logout-Button am rechten Ende der Navbar -->
-        <button class="btn btn-outline-danger logout-btn" type="button" onclick="location.href='/logout/'">Logout</button>
-     </div>
+    <!-- Searchbar -->
+    <form class="search-form form-inline mx-auto d-flex align-items-center">
+        <input class="search-input form-control" type="search" placeholder="Search" aria-label="Search">
+        <button class="search-btn btn btn-outline-success" type="submit">Search</button>
+    </form>
+    
+    <!-- Logout-Button am rechten Ende der Navbar -->
+    <button class="btn btn-outline-danger logout-btn" type="button" onclick="location.href='/logout/'">Logout</button>
 </nav>
 
-    <!-- Hauptinhalt des Dashboards -->
-    <div class="container mt-5">
-        <h1>Welcome to the Dashboard</h1>
-        <!-- Hier können Sie zusätzliche Inhalte für Ihr Dashboard hinzufügen -->
-    </div>
 
-    <!-- Lokale Bootstrap JS Datei und Popper.js einbinden -->
-    <script src="{% static 'bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+
+<!-- Lokale Bootstrap JS Datei einbinden -->
+<script src="{% static 'bootstrap/js/bootstrap.bundle.min.js' %}"></script>
 </body>
 </html>
