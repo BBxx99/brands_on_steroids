@@ -13,9 +13,16 @@
 </head>
 <body>
 
+<!-- Logo zentrieren -->
+<div class="row justify-content-center align-items-center vh-50">
+    <div class="col-12 text-center">
+        <img src="{% static 'images/BOS_logo_web_1c.png' %}" alt="Logo" class="img-fluid login-logo">
+    </div>
+</div>
+
 <!-- Login Formular -->
-<div class="row justify-content-center align-items-center vh-100"> <!-- vh-100 stellt sicher, dass die Zeile die volle Höhe des Viewports einnimmt -->
-    <div class="col-md-4">
+<div class="row justify-content-center align-items-center vh-100">
+    <div class="col-md-4 offset-md-1">
         <div class="card">
             <div class="card-body">
                 <!-- Logo anstelle der "Login"-Überschrift -->
@@ -39,7 +46,7 @@
     </div>
 </div>
 
-<!-- Lokale Bootstrap JS Datei und Popper.js einbinden -->
+<!-- Lokale Bootstrap JS Datei einbinden -->
 <script src="{% static 'bootstrap/js/bootstrap.bundle.min.js' %}"></script>
 </body>
 </html>

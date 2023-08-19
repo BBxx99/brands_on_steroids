@@ -13,41 +13,9 @@ body {
     margin-top: 1rem;
 }
 
-/* Stildefinitionen für das Logo */
-.nav-logo img {
-    width: 200px; /* Größere Breite für das Logo */
-    margin-left: 1rem; /* Abstand von links für das Logo */
-}
-
-
-
-/* Stile für die Suchleiste und den Such-Button */
-.search-form {
-    display: flex;
-    align-items: center;
-}
-
-.search-input {
-    flex: 1; /* Damit die Suchleiste den verfügbaren Platz ausfüllt */
-}
-
-.search-btn {
-    margin-left: 8px; /* Abstand zwischen Suchleiste und Such-Button */
-}
-
 /* Stildefinition für das Logo auf der Login-Seite */
-.login-logo img {
-    width:  200px;
+.login-logo {
+    width: 750px;
     display: block;
     margin: 0 auto;  /* Zentriert das Bild horizontal */
-}
-
-/* Logout-Button Anpassungen */
-.logout-btn {
-    margin-right: 1rem; /* Abstand von rechts für den Logout-Button */
-}
-
-.navbar {
-    border-bottom: 1px solid #d3d3d3;  /* dünne graue Linie */
-    background-color: #ffffff;
 }
