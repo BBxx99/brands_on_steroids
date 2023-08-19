@@ -14,7 +14,7 @@
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-lg navbar-light d-flex">
     <!-- Logo -->
     <a class="navbar-brand nav-logo" href="/dashboard/">
         <img src="{% static 'images/BOS_logo_web_1c.png' %}" alt="Logo">
@@ -27,11 +27,8 @@
     </form>
     
     <!-- Logout-Button am rechten Ende der Navbar -->
-    <button class="btn btn-outline-danger logout-btn" type="button" onclick="location.href='/logout/'">Logout</button>
+    <button class="btn btn-outline-danger logout-btn align-items-center" type="button" onclick="location.href='/logout/'">Logout</button>
 </nav>
-
-
-
 
 <!-- Lokale Bootstrap JS Datei einbinden -->
 <script src="{% static 'bootstrap/js/bootstrap.bundle.min.js' %}"></script>
